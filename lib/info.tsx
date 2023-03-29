@@ -12,7 +12,7 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      Me encanta crear tecnología que ayuda a las empresas a tener éxito y prosperar. Ya sea programando una nueva feature impresionante o solucionando un molesto bug, siempre estoy dispuesto a enfrentar un buen desafío.
+      Me encanta crear tecnología que ayuda a las empresas a tener éxito y prosperar. Ya sea programando una elegante feature o solucionando un molesto bug, siempre estoy animado a enfrentar un buen desafío.
     </>
   );
 };
