@@ -16,7 +16,7 @@ export default function AboutPage() {
     <section>
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey, soy Ignacio. La mayoría de las personas me conocen como <b>Nacho</b>.
+        Hey! soy Ignacio, aunque la mayoría de las personas me conocen como <b>Nacho</b>.
       </p>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p>
@@ -30,7 +30,7 @@ export default function AboutPage() {
           Tengo un gran amor por construir cosas desde cero, ya sea un pequeño script o una aplicación a gran escala. Hay algo realmente satisfactorio en crear algo nuevo y útil. Es por eso que siempre estoy impaciente por aprender nuevas tecnologías para expandir mis habilidades y construir soluciones innovadoras a problemas complejos. La libertad para crear es una de las cosas que más amo de ser desarrollador.
         </p>
         <p className="mb-8">
-          Fuera del ámbito tecnológico, disfruto de una variedad de pasatiempos. Me encanta escuchar música y asistir a conciertos siempre que puedo. Aunque no soy músico, siempre me emociona probar nuevos instrumentos. También disfruto pasar tiempo al aire libre, jugar videojuegos, viajar a nuevos lugares y pasar tiempo de calidad en casa con mi familia y mi querida gata, Caraota (llamado así por la palabra venezolana para frijoles negros).
+          Fuera del ámbito tecnológico, disfruto de una variedad de pasatiempos. Me encanta escuchar música y asistir a conciertos siempre que puedo. Aunque no soy músico, siempre me emociona probar nuevos instrumentos. También disfruto pasar tiempo al aire libre, jugar videojuegos, viajar a nuevos lugares y pasar tiempo de calidad en casa con mi familia y mi querida gata, Caraota (llamada así por la palabra venezolana para frijoles negros).
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a
