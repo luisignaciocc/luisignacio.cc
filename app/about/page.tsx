@@ -8,7 +8,7 @@ import {
 
 export const metadata: Metadata = {
   title: "About",
-  description: "VP of Developer Experience at Vercel.",
+  description: "Fullstack Developer at 500 Global",
 };
 
 export default function AboutPage() {
@@ -16,38 +16,21 @@ export default function AboutPage() {
     <section>
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey, I'm Ignacio. Most folks know me as <b>Nacho</b>.
+        Hey, soy Ignacio. La mayoría de las personas me conocen como <b>Nacho</b>.
       </p>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p>
-          I'm currently a <b>Software Developer at 500 Global</b>. where I build
-          tools that make it easier for founders to achieve their goals and grow
-          their businesses.
+          Actualmente soy <b>Desarrollador de Software en <a target="_blank" rel="noopener noreferrer" href="https://500.co/">500 Global</a></b>, donde construyo herramientas que facilitan a los fundadores alcanzar sus objetivos y hacer crecer sus negocios.
         </p>
         <hr />
         <p>
-          I'm passionate about technology and constantly curious about the world
-          around me. From a young age, I've been fascinated by science and
-          technology and loved learning how things worked. This curiosity
-          eventually led me to pursue a career in software development.
+          Soy apasionado de la tecnología y constantemente curioso acerca del mundo que me rodea. Desde joven, he estado fascinado por la ciencia y la tecnología, y me encantaba aprender cómo funcionaban las cosas. Esta curiosidad finalmente me llevó a seguir una carrera en el desarrollo de software.
         </p>
         <p>
-          I have a great <b>love</b> for building things from scratch, whether
-          it's a small script or a large-scale application. There's something
-          truly satisfying about creating something new and useful. That's why
-          I'm always eager to learn new languages and technologies to expand my
-          skill set and build innovative solutions to complex problems. The
-          freedom to create is one of the things I love most about being a
-          developer.
+          Tengo un gran amor por construir cosas desde cero, ya sea un pequeño script o una aplicación a gran escala. Hay algo realmente satisfactorio en crear algo nuevo y útil. Es por eso que siempre estoy impaciente por aprender nuevas tecnologías para expandir mis habilidades y construir soluciones innovadoras a problemas complejos. La libertad para crear es una de las cosas que más amo de ser desarrollador.
         </p>
         <p className="mb-8">
-          Outside of Tech, I enjoy a variety of hobbies. I love listening to
-          music and going to concerts whenever I can. Although I'm not a great
-          musician myself, I'm always eager to try playing new instruments. I
-          also enjoy spending time outdoors, playing video games, traveling to
-          new places, and spending quality time at home with my family and my
-          beloved cat, Caraota (named after the Venezuelan word for black
-          beans).
+          Fuera del ámbito tecnológico, disfruto de una variedad de pasatiempos. Me encanta escuchar música y asistir a conciertos siempre que puedo. Aunque no soy músico, siempre me emociona probar nuevos instrumentos. También disfruto pasar tiempo al aire libre, jugar videojuegos, viajar a nuevos lugares y pasar tiempo de calidad en casa con mi familia y mi querida gata, Caraota (llamado así por la palabra venezolana para frijoles negros).
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a
