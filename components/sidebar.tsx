@@ -12,9 +12,6 @@ const navItems = {
   "/about": {
     name: "sobre mi",
   },
-  "/blog": {
-    name: "blog",
-  },
 };
 
 function Logo() {
