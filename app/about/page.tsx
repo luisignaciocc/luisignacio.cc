@@ -16,8 +16,8 @@ export default function AboutPage() {
     <section>
       <h1 className="font-bold text-3xl font-serif">Sobre Mí</h1>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey! soy Ignacio, aunque la mayoría de las personas me conocen como{" "}
-        <b>Nacho</b>.
+        Mi nombre es Luis Ignacio, aunque la mayoría de las personas me conocen
+        como <b>Nacho</b>.
       </p>
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p>
@@ -28,15 +28,15 @@ export default function AboutPage() {
               500 Global
             </a>
           </b>
-          , donde construyo herramientas que facilitan a los fundadores alcanzar
-          sus objetivos y hacer crecer sus negocios.
+          , donde construyo herramientas que ayudan talentosos emprendedores
+          construir empresas exitosas.
         </p>
         <hr />
         <p>
-          Soy apasionado de la tecnología y constantemente curioso acerca del
-          mundo que me rodea. Desde joven, he estado fascinado por la ciencia y
-          la tecnología, y me encantaba aprender cómo funcionaban las cosas.
-          Esta curiosidad finalmente me llevó a seguir una carrera en el
+          Me apasiona la tecnología y constantemente me mantengo curioso acerca
+          del mundo que me rodea. Desde joven, he estado fascinado por la
+          ciencia y la tecnología, y me encantaba aprender cómo funcionaban las
+          cosas. Esta curiosidad finalmente me llevó a seguir una carrera en el
           desarrollo de software.
         </p>
         <p>
@@ -45,7 +45,7 @@ export default function AboutPage() {
           satisfactorio en crear algo nuevo y útil. Es por eso que siempre estoy
           impaciente por aprender nuevas tecnologías para expandir mis
           habilidades y construir soluciones innovadoras a problemas complejos.
-          La libertad para crear es una de las cosas que más amo de ser
+          La libertad para crear es una de las cosas que más disfruto de ser
           desarrollador.
         </p>
         <p className="mb-8">
@@ -54,8 +54,7 @@ export default function AboutPage() {
           Aunque no soy músico, siempre me emociona probar nuevos instrumentos.
           También disfruto pasar tiempo al aire libre, jugar videojuegos, viajar
           a nuevos lugares y pasar tiempo de calidad en casa con mi familia y mi
-          gata, Caraota (llamada así por la palabra venezolana para frijoles
-          negros).
+          gata, Caraota.
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a

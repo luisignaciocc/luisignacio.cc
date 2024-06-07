@@ -62,6 +62,17 @@ export default async function HomePage() {
             <p className="h-7">LinkedIn</p>
           </a>
         </li>
+        <li>
+          <a
+            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://cv.luisignacio.cc"
+          >
+            <ArrowIcon />
+            <p className="h-7">C.V.</p>
+          </a>
+        </li>
       </ul>
     </section>
   );
