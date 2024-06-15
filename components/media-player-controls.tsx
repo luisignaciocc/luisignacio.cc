@@ -1,4 +1,5 @@
 "use client";
+import clsx from "clsx";
 import { Button } from "components/ui/button";
 import { Slider } from "components/ui/slider";
 import { useEffect, useRef, useState } from "react";
@@ -8,12 +9,25 @@ export function MediaPlayerControls() {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(defaultVolume);
+  const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
+    const handleError = (error: unknown) => {
+      console.error("Error loading audio", error);
+      setHidden(true);
+    };
+
     const audioElement = audioRef.current;
     if (audioElement) {
       audioElement.volume = volume;
+      audioElement.addEventListener("error", handleError);
     }
+
+    return () => {
+      if (audioElement) {
+        audioElement.removeEventListener("error", handleError);
+      }
+    };
   }, [volume]);
 
   const handlePlayPause = () => {
@@ -36,7 +50,14 @@ export function MediaPlayerControls() {
   };
 
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 w-full max-w-md z-50">
+    <div
+      className={clsx(
+        "fixed bottom-4 left-1/2 -translate-x-1/2 w-full max-w-md z-50",
+        {
+          hidden: hidden,
+        }
+      )}
+    >
       <div className="bg-[#111010]/70 backdrop-blur-md rounded-xl px-4 py-2 flex items-center justify-between gap-4">
         <a
           className="flex items-center gap-2"
