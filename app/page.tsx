@@ -1,12 +1,10 @@
-import Link from "next/link";
-import Image from "next/image";
 import {
   ArrowIcon,
   GitHubIcon,
   TwitterIcon,
-  ViewsIcon,
 } from "components/icons";
-import { name, about, bio, avatar } from "lib/info";
+import { about, avatar,bio, name } from "lib/info";
+import Image from "next/image";
 
 export const revalidate = 60;
 

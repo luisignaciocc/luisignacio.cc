@@ -1,6 +1,6 @@
+import { allBlogs } from "contentlayer/generated";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { allBlogs } from "contentlayer/generated";
 
 export const metadata: Metadata = {
   title: "Blog",

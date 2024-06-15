@@ -1,10 +1,12 @@
 import "./global.css";
+
+import { Analytics } from "@vercel/analytics/react";
 import clsx from "clsx";
+import { MediaPlayerControls } from "components/media-player-controls";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+
 import Sidebar from "../components/sidebar";
-import { Analytics } from "@vercel/analytics/react";
-import { MediaPlayerControls } from "components/media-player-controls";
 
 const kaisei = localFont({
   src: "../public/fonts/kaisei-tokumin-latin-700-normal.woff2",
