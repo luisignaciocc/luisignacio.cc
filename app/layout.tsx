@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     default: "Luis Ignacio Cabezas Collantes",
     template: "%s | Nacho Collantes",
   },
-  description: "Developer, writer, and creator.",
+  description: "Desarrollador de software",
   openGraph: {
     title: "Luis Ignacio Cabezas",
-    description: "Developer, writer, and creator.",
+    description: "Desarrollador de software",
     url: "https://luisignacio.cc",
     siteName: "Luis Ignacio Cabezas",
     images: [
