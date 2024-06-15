@@ -22,10 +22,10 @@ export const metadata: Metadata = {
   },
   description: "Desarrollador de software",
   openGraph: {
-    title: "Luis Ignacio Cabezas",
+    title: "Luis Ignacio Cabezas Collantes",
     description: "Desarrollador de software",
     url: "https://luisignacio.cc",
-    siteName: "Luis Ignacio Cabezas",
+    siteName: "Luis Ignacio Cabezas Collantes",
     images: [
       {
         url: "https://luisignacio.cc/og.jpg",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Luis Ignacio Cabezas",
+    title: "Luis Ignacio Cabezas Collantes",
     card: "summary_large_image",
   },
   icons: {

@@ -1,6 +1,6 @@
 import me from "../app/avatar.jpeg";
 
-export const name = "Luis Ignacio Cabezas";
+export const name = "Luis Ignacio Cabezas Collantes";
 export const avatar = me;
 export const about = () => {
   return (
