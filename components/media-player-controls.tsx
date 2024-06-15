@@ -12,6 +12,16 @@ export function MediaPlayerControls() {
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
+    function isSafari() {
+      return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    }
+
+    if (isSafari()) {
+      setHidden(true);
+    }
+  }, []);
+
+  useEffect(() => {
     const handleError = (error: unknown) => {
       console.error("Error loading audio", error);
       setHidden(true);
