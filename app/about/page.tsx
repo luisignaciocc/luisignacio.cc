@@ -29,7 +29,7 @@ export default function AboutPage() {
             </a>
           </b>
           , donde construyo herramientas que ayudan a talentosos emprendedores a
-          construir sus empresas tecnológicas.
+          construir empresas tecnológicas.
         </p>
         <hr />
         <p>
