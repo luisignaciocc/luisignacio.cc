@@ -17,15 +17,15 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nacho Collantes",
+    default: "Luis Ignacio Cabezas Collantes",
     template: "%s | Nacho Collantes",
   },
   description: "Developer, writer, and creator.",
   openGraph: {
-    title: "Ignacio Collantes",
+    title: "Luis Ignacio Cabezas",
     description: "Developer, writer, and creator.",
     url: "https://luisignacio.cc",
-    siteName: "Ignacio Collantes",
+    siteName: "Luis Ignacio Cabezas",
     images: [
       {
         url: "https://luisignacio.cc/og.jpg",
@@ -48,15 +48,14 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Ignacio Collantes",
+    title: "Luis Ignacio Cabezas",
     card: "summary_large_image",
   },
   icons: {
     shortcut: "/favicon.ico",
   },
   verification: {
-    google: "eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw",
-    yandex: "14d2e73487fa6c71",
+    google: "caCuJ3RQu4O-bvlPtfvhadBhBxZfQpjCOIyP_T2Ar5E",
   },
 };
 
