@@ -29,7 +29,7 @@ export default function AboutPage() {
             </a>
           </b>
           , donde construyo herramientas que ayudan a talentosos emprendedores a
-          construir sus empresas.
+          construir sus empresas tecnológicas.
         </p>
         <hr />
         <p>
@@ -41,20 +41,27 @@ export default function AboutPage() {
         </p>
         <p>
           Tengo un gran amor por construir cosas desde cero, ya sea un pequeño
-          script o una aplicación a gran escala. Hay algo realmente
-          satisfactorio en crear algo nuevo y útil. Es por eso que siempre estoy
+          script o una aplicación a gran escala, encuentro algo realmente
+          satisfactorio en crear algo nuevo y útil, es por eso que siempre estoy
           impaciente por aprender nuevas tecnologías para expandir mis
           habilidades y construir soluciones innovadoras a problemas complejos.
           La libertad para crear es una de las cosas que más disfruto de ser
           desarrollador.
         </p>
+        <p>
+          Mi vida es un testimonio de cómo la tecnología y la programación son
+          herramientas poderosisimas para cambiar tu situación, por eso disfruto
+          mucho compartir mis conocimientos con la comunidad. He participado en
+          webinars, asesorías, colaborado con freeCodeCamp y organicé un grupo
+          de desarrollo local, con el que desplegamos varios proyectos motivados
+          por el deseo de aprender y crecer.
+        </p>
         <p className="mb-8">
           Fuera del ámbito tecnológico, disfruto de una variedad de pasatiempos.
-          Me encanta escuchar música y asistir a conciertos siempre que puedo.
-          Aunque no soy músico, siempre me emociona probar nuevos instrumentos.
-          También disfruto pasar tiempo al aire libre, jugar videojuegos, viajar
-          a nuevos lugares y pasar tiempo de calidad en casa con mi familia y mi
-          gata, Caraota.
+          Me encanta escuchar música y, aunque no soy músico, siempre me
+          emociona probar nuevos instrumentos. También disfruto pasar tiempo al
+          aire libre, jugar videojuegos, conocer nuevos lugares y pasar tiempo
+          de calidad en casa con mi familia, amigos y mi gata, Caraota.
         </p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a
