@@ -92,7 +92,7 @@ export function MediaPlayerControls() {
   );
 }
 
-function PauseIcon(props) {
+function PauseIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -112,7 +112,7 @@ function PauseIcon(props) {
   );
 }
 
-function FileMusicIcon(props) {
+function FileMusicIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -134,7 +134,7 @@ function FileMusicIcon(props) {
   );
 }
 
-function PlayIcon(props) {
+function PlayIcon(props: { className?: string }) {
   return (
     <svg
       {...props}
@@ -153,7 +153,7 @@ function PlayIcon(props) {
   );
 }
 
-function Volume2Icon(props) {
+function Volume2Icon(props: { className?: string }) {
   return (
     <svg
       {...props}
