@@ -35,7 +35,15 @@ export function MediaPlayerControls() {
       if (isPlaying) {
         audioRef.current.pause();
       } else {
-        audioRef.current.play();
+        try {
+          audioRef.current.play().catch((error) => {
+            console.error("Playback error:", error);
+            setHidden(true);
+          });
+        } catch (error) {
+          console.error("Playback error:", error);
+          setHidden(true);
+        }
       }
       setIsPlaying(!isPlaying);
     }
