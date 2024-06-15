@@ -97,8 +97,6 @@ export function MediaPlayerControls() {
       <audio
         ref={audioRef}
         src="https://coderadio-admin-v2.freecodecamp.org/listen/coderadio/low.mp3"
-        muted
-        controls={false}
       />
     </div>
   );
