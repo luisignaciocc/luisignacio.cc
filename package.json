@@ -6,7 +6,7 @@
     "build-only": "next build",
     "start": "next start",
     "lint": "next lint --fix",
-    "format": "prettier --write . && prisma format",
+    "format": "prettier --write .",
     "type-check": "tsc --pretty --noEmit"
   },
   "dependencies": {

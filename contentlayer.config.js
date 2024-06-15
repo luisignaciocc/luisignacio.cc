@@ -14,7 +14,7 @@ const computedFields = {
     type: "array",
     resolve: (doc) => {
       const tweetMatches = doc.body.raw.match(
-        /<StaticTweet\sid="[0-9]+"\s\/>/g
+        /<StaticTweet\sid="[0-9]+"\s\/>/g,
       );
       return tweetMatches?.map((tweet) => tweet.match(/[0-9]+/g)[0]) || [];
     },

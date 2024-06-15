@@ -55,7 +55,7 @@ export function MediaPlayerControls() {
         "fixed bottom-4 left-1/2 -translate-x-1/2 w-full max-w-md z-50",
         {
           hidden: hidden,
-        }
+        },
       )}
     >
       <div className="bg-[#111010]/70 backdrop-blur-md rounded-xl px-4 py-2 flex items-center justify-between gap-4">

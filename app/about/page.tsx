@@ -28,8 +28,8 @@ export default function AboutPage() {
               500 Global
             </a>
           </b>
-          , donde construyo herramientas que ayudan a talentosos emprendedores
-          a construir sus empresas.
+          , donde construyo herramientas que ayudan a talentosos emprendedores a
+          construir sus empresas.
         </p>
         <hr />
         <p>
