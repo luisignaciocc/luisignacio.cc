@@ -38,9 +38,17 @@ export function MediaPlayerControls() {
   return (
     <div className="fixed bottom-4 left-1/2 -translate-x-1/2 w-full max-w-md z-50">
       <div className="bg-[#111010]/70 backdrop-blur-md rounded-xl px-4 py-2 flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
+        <a
+          className="flex items-center gap-2"
+          href="https://www.freecodecamp.org/espanol/"
+          target="_blank"
+        >
           <FileMusicIcon className="h-6 w-6 text-gray-300" />
-        </div>
+          <div className="text-sm text-gray-300">
+            <div className="font-medium">codeRadio();</div>
+            <div className="text-xs text-gray-500">freeCodeCamp</div>
+          </div>
+        </a>
         <Button size="icon" variant="ghost" onClick={handlePlayPause}>
           {isPlaying ? (
             <PauseIcon className="h-6 w-6 text-gray-300" />
